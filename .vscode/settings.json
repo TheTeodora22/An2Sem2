@@ -2,5 +2,6 @@
     "java.project.sourcePaths": [
         "PAOJ"
     ],
-    "java.project.referencedLibraries": []
+    "java.project.referencedLibraries": [],
+    "python-envs.defaultEnvManager": "ms-python.python:system"
 }
