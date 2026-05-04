@@ -46,7 +46,6 @@ def ex2(train_img, train_lbl, test_img, num_bins):
     train_images_bins = values_to_bins(train_img, bins)
     test_images_bins = values_to_bins(test_img, bins)
 
-
     naive_bayes_model = MultinomialNB()
     naive_bayes_model.fit(train_images_bins, train_lbl)
     
